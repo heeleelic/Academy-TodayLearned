@@ -18,8 +18,6 @@ public class IfTest_10 {
 				score>69?"B":
 					score>59?"D":"F";
 			
-		
-		
 		System.out.println(grade);
 
 	}
