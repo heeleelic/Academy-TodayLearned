@@ -42,6 +42,7 @@ public class StringEx_08 {
 		System.out.println("computer".compareTo("command")); //p와 m 비교
 		System.out.println("apple".compareTo("banana")); //a가 b보다 하나 작음, -1
 		System.out.println("김".compareTo("이")); 
+		System.out.println("a".compareTo("b"));  //a가 b보다 하나 작음, -1
 		
 		//startsWith,endsWith (boolean)
 		System.out.println(str3.endsWith("Day!!!"));//true
