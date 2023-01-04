@@ -22,8 +22,7 @@ public class QuizLotto_13 {
 		for(int b=0;b<su;b++) {
 			
 		System.out.print(b+1+"회: ");
-		
-		
+				
 		
 		int[] lotto=new int[6];
 		
@@ -35,7 +34,7 @@ public class QuizLotto_13 {
 			
 			//중복 처리
 			for(int j=0;j<i;j++) {
-				if(lotto[i]==lotto[j]) {
+				if(lotto[i]==lotto[j]) { //먼저 뽑았던 거랑 그 다음 거랑 비교하기(만약 같으면...)
 					i--; 
 					// 같은 번지에 다시 값을 구하기 위해서 
 					// (i=3번째 값과 j=2번째 값이 동일할 경우, i=2로 돌아가고 break 걸려서, 
