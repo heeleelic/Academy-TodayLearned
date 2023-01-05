@@ -23,10 +23,10 @@ public class WidthGugu_04 {
 				
 		//조금 헷갈려서 다시 해보기!
 				
-		for(int i=2;i<=9;i++) {
+		/*for(int i=2;i<=9;i++) {
 			System.out.print("["+i+"단]\t");
 		}
-		System.out.println();
+		System.out.println();*/
 					
 		for(int j=1;j<=9;j++) {			
 			for(int k=2;k<=9;k++) {
