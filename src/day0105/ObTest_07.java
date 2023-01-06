@@ -24,7 +24,7 @@ class ObTestA{
 	
 	
 	
-	//스태틱 메서드(멤버 매서드)_인스턴스 변수는 호출 못하고 스태틱 변수만 호출 가능하다.
+	//스태틱 메서드(멤버 매서드)
 	public static void setY(int y) {
 		ObTestA.y=y;
 		

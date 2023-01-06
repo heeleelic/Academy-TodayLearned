@@ -7,25 +7,37 @@ public class MyCar_13 {
 	private String color;
 	
 
-	public void setCarName(String carName) {
+	/*아주 깔끔하고 예쁜 코드를 짜보자!!!*/
+		
+	
+	//생성자 이용하기
+	public MyCar_13(String carName,int price,String color) {
 		this.carName=carName;
-	}
-	public void setPrice(int price) {
 		this.price=price;
+		this.color=color;		
 	}
-	public void setColor(String color) {
+	
+	//출력 메서드
+	public void printCarInfo() {
+		System.out.println("자동차명: "+this.carName);
+		System.out.println("차량가격: "+this.price);
+		System.out.println("차량색상: "+this.color);
+	}
+	
+	
+	
+	//getter&setter 이용하기 
+	/*public void setCar(String carName,int price,String color) {
+		this.carName=carName;
+		this.price=price;
 		this.color=color;
 	}
 	
-	public void getCarName() {
+	public void getCar() {
 		System.out.println("자동차명: "+this.carName);
-	}
-	public void getPrice() {
-		System.out.println("차량가격: "+this.price);
-	}
-	public void getColor() {
-		System.out.println("차량색상: "+this.color);
-	}
+		System.out.println("자동차명: "+this.price);
+		System.out.println("자동차명: "+this.color);
+	}*/
 	
 	
 }
