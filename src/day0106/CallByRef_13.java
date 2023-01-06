@@ -27,6 +27,8 @@ public class CallByRef_13 {
 	public static void main(String[] args) {
 		
 		MyCar car=new MyCar();
+		
+		//두 메서드 모두 주소가 전달된다. 
 		dataIn(car);
 		dataOut(car);
 
