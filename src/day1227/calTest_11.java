@@ -11,6 +11,7 @@ public class calTest_11 {
 		//System.out.println("지금은 "+(date.getYear())+"년도 입니다");
 		
 		Calendar cal=Calendar.getInstance();
+		
 		System.out.println("지금은 "+cal.get(cal.YEAR)+"년도입니다");
 		System.out.println("지금은 "+(cal.get(cal.MONTH)+1)+"월입니다"); //month는 1을 더해준다.
 		System.out.println("지금은 "+cal.get(cal.DATE)+"일입니다");

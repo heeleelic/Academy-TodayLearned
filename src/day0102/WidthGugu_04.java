@@ -9,6 +9,27 @@ public class WidthGugu_04 {
 		//...
 		//2*9=18 ... 
 		
+		
+		//구구단 제목
+		for(int i=2;i<=9;i++) {
+			System.out.print("["+i+"단]\t");
+		}
+		
+		System.out.println();
+		
+		//가로 구구단
+		for(int i=1;i<10;i++) {
+			for(int j=2;j<10;j++) {
+				int gob=i*j;
+				System.out.print(j+"*"+i+"="+gob+"\t");
+			}
+			System.out.println();
+		}
+		
+		
+
+		
+		
 //		for(int i=2;i<=9;i++) {
 //			System.out.print("["+i+"단]\t");		
 //		} 
@@ -21,24 +42,8 @@ public class WidthGugu_04 {
 //			System.out.println();
 //		}
 				
-		//조금 헷갈려서 다시 해보기!
-				
-		/*for(int i=2;i<=9;i++) {
-			System.out.print("["+i+"단]\t");
-		}
-		System.out.println();*/
-					
-		for(int j=1;j<=9;j++) {			
-			for(int k=2;k<=9;k++) {
-				System.out.print(k+"*"+j+"="+k*j+"\t");
-			}
-			
-			System.out.println();			
-		}
 		
-		
-		
-
+	
 	}
 
 }

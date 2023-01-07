@@ -28,7 +28,7 @@ public class ObTest_05 {
 		
 		TestA tA=new TestA();
 		System.out.println(tA.name);
-		System.out.println(tA.MESSAGE);
+		System.out.println(TestA.MESSAGE);
 		
 		tA.name="이성희";
 		System.out.println(tA.name);

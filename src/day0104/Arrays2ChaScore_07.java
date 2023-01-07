@@ -19,6 +19,9 @@ public class Arrays2ChaScore_07 {
 		//총점 출력하기
 		System.out.println("이름\t자바\t오라클\t스프링\t총점");
 		
+		
+		
+		
 		for(int i=0;i<name.length;i++) {
 			
 			System.out.print(name[i]+"\t");
@@ -26,6 +29,7 @@ public class Arrays2ChaScore_07 {
 			for(int j=0;j<score[i].length;j++) {
 				System.out.print(score[i][j]+"\t");
 			}
+			
 			System.out.println();			
 		}
 		

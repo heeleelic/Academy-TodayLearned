@@ -1,14 +1,28 @@
 package day0102;
 
-import java.util.Scanner;
-
 public class QuizForWhile_02 {
 	
 	public static void quiz1(){
 		//x의 y승
 		//ex) 3의 5승 = 3*3*3*3*3
 		
-		Scanner sc= new Scanner(System.in);
+		
+		int x=2;
+		int y=2;
+		int a=1;
+		
+		for(int i=0;i<y;i++) {
+			a*=x;
+		}
+		System.out.println(a);
+	}
+		
+		
+		
+		
+		
+		
+		/*Scanner sc= new Scanner(System.in);
 		int x=sc.nextInt();
 		int y=sc.nextInt();
 		int a=1;
@@ -18,7 +32,9 @@ public class QuizForWhile_02 {
 		}
 		System.out.println(x+"의 "+y+"승은 "+a+"입니다.");
 		
-	}
+	}*/
+		
+		
 	
 	
 	
@@ -28,7 +44,18 @@ public class QuizForWhile_02 {
 		//5라고 입력하면 5!=120
 		//1*2*3*4*5
 		
-		Scanner sc= new Scanner(System.in);
+		int a=1;
+		int fac=5;
+	
+		for(int i=1;i<=5;i++) {
+			a*=i;
+		}
+		System.out.println(fac+"!="+a);
+		
+		
+		
+	
+		/*Scanner sc= new Scanner(System.in);
 		int num=sc.nextInt();
 		int fac=1;
 		
@@ -36,7 +63,7 @@ public class QuizForWhile_02 {
 			fac*=i;
 		}
 			
-		System.out.println(num+"!="+fac);
+		System.out.println(num+"!="+fac);*/
 	}
 	
 	
@@ -48,16 +75,41 @@ public class QuizForWhile_02 {
 		//3.Hello
 		//  1:Java 2:Java 3:Java 4:Java
 		
+		for(int i=1;i<=3;i++) {
+			System.out.println(i+".Hello");
+			
+			for(int j=1;j<=4;j++) {
+				System.out.print("\t"+j+".Java ");			
+			}
+			
+			System.out.println();
+		}
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		//i=1일 때 j=1,2,3,4 
 		//i=2일 때 j=1,2,3,4
 		//i=3일 때 j=1,2,3,4
-		for(int i=1;i<=3;i++) {
+		/*for(int i=1;i<=3;i++) {
 			System.out.println(i+".Hello");
 			for(int j=1;j<=4;j++) {
 				System.out.print("\t"+j+":Java ");
 			}
 			System.out.println("");
-		}
+		}*/
 		
 	}
 

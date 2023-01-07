@@ -12,7 +12,7 @@ public class CastingNum_03 {
 		String su1="9";
 		String su2="5";
 		
-		System.out.println("두수 더하기: "+(su1+su2));  //47
+		System.out.println("두수 더하기: "+(su1+su2));  //95
 		
 		//문자열 su1,su2를 정수타입 int로 변환후 계산해보기
 		int s1=Integer.parseInt(su1);
