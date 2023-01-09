@@ -2,8 +2,7 @@ package day0106;
 
 /*메서드 장점 및 작성 요령
  * 1.재사용할 수 있다.
- * 2.메서드 헤더
- *    public static(인스턴스x) void(리턴x) 메서드명(arg 있으면 data type+arg명)
+ * 2.메서드 헤더 public static(인스턴스x) void(리턴x) 메서드명(arg 있으면 data type+arg명)
  * 3.리턴 값은 모든 데이터 타입 가능하다.
  * 4.하나의 메소드에는 하나의 기능만 두자. 
  * */
