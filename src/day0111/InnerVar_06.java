@@ -33,7 +33,7 @@ public class InnerVar_06 {
 	public static void main(String[] args) {
 	
 
-		Server.Client n=new Server.Client(); //왜 new Server().Client()가 아닐까?? --> 스태틱 메서드처럼 사용하기 때문에 클래스명.으로 호출?? 
+		Server.Client n=new Server.Client(); 
 		n.write();
 	}
 
