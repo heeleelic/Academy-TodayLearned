@@ -29,8 +29,6 @@ public class ExFormat_04 {
 		
 		
 		
-	
-		
 		//숫자를 문자열로 변환하여 출력(소수점 등 지정)
 		int money=231242345;
 		double num=56.14212;

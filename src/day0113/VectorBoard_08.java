@@ -70,7 +70,7 @@ public class VectorBoard_08 {
 			    System.out.println("시스템을 종료합니다.");
 				System.exit(0);
 			default:
-				System.err.println("유효하지 않은 번호입니다.");
+				System.out.println("유효하지 않은 번호입니다.");
 				continue;
 			}
 			
